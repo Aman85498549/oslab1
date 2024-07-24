@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+int a;
+printf("enter the number of digits int array");
+scanf("%d",&a);
+int arr[a];
+for(int i=0;i<a;i++)
+{
+printf("enter the  %d digit",i+1);
+scanf("%d",&arr[i]);
+}
+int sum=0;
+for(int i=0;i<a;i++)
+{
+sum=sum+arr[i];
+
+}
+float y;
+y=sum/a;
+printf("%f",y);
+return 0;
+}
